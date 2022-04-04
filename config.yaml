@@ -3,7 +3,7 @@ languageCode: "fr-fr"
 title: "ELO IssaPortfolio"
 theme: hugo-profile
 
-Paginate:
+Paginate: 3
 disqusShortname:
 googleAnalytics:
 
