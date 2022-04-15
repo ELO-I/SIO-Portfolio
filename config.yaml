@@ -3,7 +3,7 @@ languageCode: "fr-fr"
 title: "ELO IssaPortfolio"
 theme: MonTemplatePortfolio
 
-Paginate: 3
+Paginate: 9
 disqusShortname:
 googleAnalytics:
 
@@ -125,9 +125,12 @@ params:
         - "HTML/CSS/JS"
         - "PHP"
         - "Symfony"
-        - "C#/WPF"
+        - "C#/WPF/Xamarin"
         - "Python"
         - "MySQL"
+        - "VS Code/PhpStorm"
+        - "Github/Git"
+        - "Laragon"
 
   # Experience
   experience:
@@ -141,10 +144,13 @@ params:
           enable: true
           content: J'y étais en tant que stagiaire.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product."
+          Durant le stage chez Little Yes j’ai pu travailler mi-présentiel mi-distanciel, j’ai appris des nouvelles méthodes de travail dans le code et de productivité.
+          Ce que j’ai fait en stage :
+          -	Apprentissage et utilisation d’un nouveau Framework Django avec l’architecture MVT et la méthode CRUD
+          -	Travaillé dans un environnement Virtuel
+          -	Utilisation de l’outil de versioning git avec GitLab
+          -	Utilisation du Code First, la base de données est générée en fonction du code
+          -	Base CSS en reproduisant une page du site Nintendo
 
       - job: "Développeur Python"
         company: "Cosmecode"
@@ -154,7 +160,66 @@ params:
           enable: true
           content: J'y étais en tant que stagiaire.
         content: |
-          Réalisation de WEB-Scrapping avec le framework Scrappy
+          Durant le stage chez COSMECODE, j’ai mis en pratique mon apprentissage orienté objet et appris sur le fonctionnement d’une startup. J’ai pu pratiquer pour la première fois le travail de développeur en remote
+          Ce que j’ai fait en stage :
+          -	Apprentissage de l’outil de versioning git avec GitHub
+          -	La réalisation d’algorithme pour scrappez des données avec l’utilisation du Framework scrappy en python
+          -	La gestion d’un meeting,
+          -	Contribution à l’amélioration de l’entreprise grâce à des remarques pertinentes
+
+      - job: "Employé polyvalent "
+        company: "McDonald"
+        companyUrl: "https://www.mcdonalds.fr/"
+        date: "Nov 2019 - Avr 2022"
+        info:
+          enable: true
+          content: Travail à temps partiel en jour par semaine.
+        content: |
+          Employé polyvalent chez McDonald's.
+          J'ai pu grâce à ce job étudiant 
+          - Apprendre à gérer mon stress même pendant les gros rush,
+          - Développer le travail d'équipe et l'entraide,
+          - Et développer mon sens des relations humaines.
+
+      - job: "Stagiare dans le service informatique de la mairie "
+        company: "Mairie de Ferney-Voltaire"
+        companyUrl: "https://www.ferney-voltaire.fr/"
+        date: "Nov 2019 - Dec 2019"
+        info:
+          enable: true
+          content: j'y était en tant que stagiaire.
+        content: |
+          Stage de 4 semaines – Dans le service Informatique à la Mairie de Ferney-Voltaire
+          Au cours de ce stage au sein de la Mairie de Ferney-Voltaire,
+          J'ai pu réaliser des missions telles que : 
+            - Étude des besoins de la Mairie
+            - Mise en place de solutions
+            - Rédaction des analyses et des comptes rendus des projets
+            - Rédaction des procédures liées aux solutions
+            - Déploiement de nouveaux postes au sein d'un nouvel environnement
+            - Formation des utilisateurs
+            - Support niveau 1 et 2
+            - Veille technologique
+            - Assistance pour les réponses aux appels d'offres
+            - Découvrir le réseau de la ville et les contraintes qu'il impose.
+
+      - job: "Stagiaire en réseau informatiqueStagiaire "
+        company: "Cogestra-Laser SA"
+        companyUrl: "https://www.cogestra.ch/"
+        date: "Jan 2019 - Fév 2029"
+        info:
+          enable: true
+          content: j'y était en tant que stagiaire.
+        content: |
+          Un total de Stage de 8 semaines ( 2 fois 4 semaines)
+          Durant ces 2 stages de 4 semaines:
+          - J'ai pu effectuer des dépannages aux domiciles des clients en autonomie,
+          - Réaliser des devis pour des particuliers et entreprises,
+          - Prendre en charge par moments les clients de la boutique,
+          - Répondre à des mails de clients,
+          - Monter plusieurs dizaines de tours pour de grand Organisme (CERN, OMS...) Ou des particuliers,
+          - Manipuler un serveur rack, démonter certaines parties, le configurer (Configuration du RAID et installation de Windows Serveur 2019),
+          - Mettre en place un petit serveur DHCP et AD pour mettre en pratique mes connaissances,
 
   # Education
   education:
@@ -202,40 +267,46 @@ params:
     items:
       - title: Certification Pix
         content: Pix
-        url: https://example.com
+        url: /pdf/attestation-pix.pdf
 
       - title: MOOC L'Atelier RGPD
         content: CNIL - Commission Nationale de l'Informatique et des Libertés
-        url: https://example.com
+        url: https://atelier-rgpd.cnil.fr/apprenant/default.php
 
       - title: MOOC SecNumacadémie
         content: ANSSI - Agence nationale de la sécurité des systèmes d'information
-        url: https://example.com
+        url: /pdf/attestation_secnumacademie.pdf
+
+      - title: Formation "Développeur Web"
+        content: Les bases du développement WEB (HTML, CSS, JS, PHP, SQL, Git, symfony, React.js, ...)
+        url: https://grafikart.fr/cursus
 
   # projects
   projects:
     enable: true
     items:
-      - title: AP
-        content: Réalisation d'un site web pour un musée
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://elo-issam.netlify.app
+      - title: Portfolio Hugo
+        content: Réalisation du portfolio avec un template hugo
+        image: /images/projects/portfolio.png
+        links :
+          - icon: fab fa-github
+            url: 
 
-      - title: AP 2
-        content: Réalisation d'un site web pour un musée
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://elo-issam.netlify.app
 
-      - title: AP 3
-        content: Réalisation d'un site web pour un musée
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://elo-issam.netlify.app
+      - title: Projet Gustave Courbet
+        content: Réalisation d'un site web pour un musée dans le cadre de l'ap
+        image: /images/projects/courbet.gif
+        links :
+          - icon: fab fa-github
+            url: 
+
+      - title: Projet site vitrine LSR Games
+        content: Réalisation d'un site web pour un escape game dans le cadre de l'ap
+        image: /images/projects/converter.jpg
+        links :
+          - icon: fab fa-github
+            url: https://github.com/ELO-I/AP-SIO2_LSRGames
+
 
   #Contact
   contact:
