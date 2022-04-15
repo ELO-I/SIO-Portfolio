@@ -3,7 +3,7 @@ languageCode: "fr-fr"
 title: "ELO IssaPortfolio"
 theme: MonTemplatePortfolio
 
-Paginate: 9
+Paginate: 3
 disqusShortname:
 googleAnalytics:
 
