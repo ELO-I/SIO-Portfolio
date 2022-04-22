@@ -1,6 +1,6 @@
 baseURL: "https://elo-issam.netlify.app"
 languageCode: "fr-fr"
-title: "ELO IssaPortfolio"
+title: "ELO Issam Portfolio"
 theme: MonTemplatePortfolio
 
 Paginate: 3
@@ -71,8 +71,8 @@ params:
     enable: true
     intro: "Bonjour, Je suis"
     title: "Issam."
-    subtitle: "Etudiant BTS SIO SLAM"
-    content: "Passionné par les nouvelles technologies et  intéressé par le développement applicatif, je compte poursuivre mes études dans ce domaine."
+    subtitle: "Développeur Junior | Étudiant BTS SIO option SLAM"
+    content: "Passionné par les nouvelles technologies et  intéressé par le développement WEB et applicatif, je compte poursuivre mes études dans ce domaine."
     image: /images/hero.png
     button:
       enable: true
@@ -150,7 +150,7 @@ params:
           -	Contribution à l’amélioration de l’entreprise grâce à des remarques pertinentes
 
       - job: "Employé polyvalent "
-        company: "McDonald"
+        company: "McDonalds"
         companyUrl: "https://www.mcdonalds.fr/"
         date: "Nov 2019 - Avr 2022"
         info:
@@ -248,7 +248,7 @@ params:
     enable: true
     items:
       - title: Certification Pix
-        content: Pix
+        content: Certification Obligatoire pour les BTS pour évaluer ces compétences numériques
         url: /pdf/attestation-pix.pdf
 
       - title: MOOC L'Atelier RGPD
@@ -268,7 +268,7 @@ params:
     enable: true
     items:
       - title: Portfolio Hugo
-        content: Réalisation du portfolio avec un template hugo
+        content: Réalisation du portfolio elo-issam.netlify.app avec un template hugo
         image: /images/projects/portfolio.png
         links :
           - icon: fab fa-github
@@ -276,14 +276,14 @@ params:
 
 
       - title: Projet Gustave Courbet
-        content: Réalisation d'un site web pour un musée dans le cadre de l'ap
+        content: Réalisation d'un site web pour un musée dans le cadre de l'Atelier professionnel la première année du BTS
         image: /images/projects/courbet.gif
         links :
           - icon: fab fa-github
             url: 
 
       - title: Projet site vitrine LSR Games
-        content: Réalisation d'un site web pour un escape game dans le cadre de l'ap
+        content: Réalisation d'un site web pour un escape game dans le cadre de l'professionnel la deuxième année du BTS
         image: /images/projects/converter.jpg
         links :
           - icon: fab fa-github
@@ -293,9 +293,9 @@ params:
   #Contact
   contact:
     enable: true
-    content: N'hésitez pas à me contacter pour toute question, problème, etc...
+    content: N'hésitez pas à me contacter pour toutes questions ou offres je suis disponible pour y répondre :)
     email: issam.el.ouiazzani@gmail.com
-    btnName: Contacter moi
+    btnName: Contactez moi
 
   footer:
     # recentPosts: false
