@@ -188,7 +188,7 @@ params:
       - job: "Stagiaire en réseau informatiqueStagiaire "
         company: "Cogestra-Laser SA"
         companyUrl: "https://www.cogestra.ch/"
-        date: "Jan 2019 - Fév 2029"
+        date: "Jan 2019 - Fév 2019"
         info:
           enable: true
           content: j'y était en tant que stagiaire.
